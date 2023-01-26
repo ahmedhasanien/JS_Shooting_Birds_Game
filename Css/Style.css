@@ -1,0 +1,189 @@
+
+.Game
+{
+background-image:url("../images/BackGroundofGame.jpg") ;
+background-size: cover ;
+height: 100vh;
+
+}
+
+h2
+{
+  color: #000;
+
+}
+.select
+{
+  width: 200px;
+  height: 30px;
+  border-radius: 10% ;
+
+}
+body{
+  margin: 0 !important;
+}
+
+.na 
+{
+  width: 200px;
+  height: 30px;
+  background-color: rgb(169,196,203) ; 
+  border-radius: 10%;
+}
+.go
+{
+  width: 100px;
+  border-radius: 20%;
+  background-color: rgb(240,240,240);
+  font-size: large;
+  color: #c9eba3;
+}
+.first_Interface
+{
+  background-color: rgb(167,216,231);
+  justify-content: center;
+  width: 30%;
+  margin: auto;
+  border: 2px rgb(167,216,231) solid;
+  top: 10px;
+
+}
+.second_Interface
+{
+  background-color: rgb(167,216,231);
+  justify-content: center;
+  width: 30%;
+  height: 300px;
+  margin: auto;
+  border: 2px rgb(167,216,231) solid;
+  margin-top: 30px;
+
+
+}
+.form
+{
+
+  color: aliceblue;
+  text-align: center;
+  
+
+}
+.welcome ,.showscore
+{
+  width: 600px;
+  height: 300px;
+  text-align: center;
+  background-color: #fff;
+  justify-content: center;
+  color: black;
+  margin: auto;
+  margin-top: 100px;
+
+  
+}
+.StartGames
+{
+   background-color: rgb(86, 204, 86);
+   width: 150px;
+   height: 50px;
+   border-radius: 10%;
+   color: #fff;
+   font-size: larger;
+   font-weight: 600;
+}
+.tr 
+{
+  position: relative;
+  display: block;
+  margin: auto;
+}
+.showscore
+{
+  display: none;
+  background-color: rgb(167,216,231);
+  margin: auto;
+  border: 2px rgb(167,216,231) solid;
+  margin-top: 30px;
+
+}
+img{
+  position: absolute;
+}
+.imgres
+{
+  position: relative;
+  display: block;
+  margin: auto;
+}
+.bres
+{
+  width: 150px;
+  height: 25px;
+  background-color: #cbfe18;
+  border: 2px solid gray;
+  font-weight: 800;
+}
+
+.details
+{
+  display: flex;
+  color: black ;
+   justify-content: space-between;
+   padding: 5px;
+
+
+}
+.Lidetail
+{
+  width:15% ; 
+  background-color:#256e9d ;
+  opacity: .7;
+  border-radius: 15px;
+  padding: 10px;
+  text-align: center;
+  color: #fff;
+
+  
+}
+.one 
+{
+  color: #07056d;
+  font-weight:800 ;
+  font-size: xx-large;
+}
+.two
+{
+  color: #b4a62a;
+  font-weight: 800;
+  font-size: xx-large;
+}
+.three
+{
+  color: red ;
+  font-weight: 800;
+  font-size: xx-large;
+
+}
+.bd
+{
+  display: block;
+}
+.StartGame
+{
+  /* background-image: url("../images/download1.jpeg"); */
+  background-image: url("../images/GameBack.jpg");
+  background-size: cover ;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+img
+{
+  width: 100px;
+}
+ul
+{
+  list-style-type: none ;
+  
+}
